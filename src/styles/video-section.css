@@ -1,9 +1,10 @@
 .video-section {
   text-align: center;
+
   background-color: var(--white);
 }
 
-.video-section-title__primary {
+.video-section-title {
   color: var(--primary);
 }
 
@@ -13,7 +14,8 @@
   left: 90px;
 
   z-index: 10;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+
+  filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
 }
 
 .video-section-description {

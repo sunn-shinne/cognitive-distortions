@@ -1,43 +1,50 @@
 .header {
   position: relative;
+
   background-color: var(--light);
 }
 
 header::before {
-  content: "";
   position: absolute;
+
   width: 100%;
   height: 100%;
-  background-image: url("../assets/images/background.png");;
+
+  background-image: url("../assets/images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 10%;
+  opacity: 0.1;
+
+  content: "";
 }
 
 .header-title {
-  color: var(--primary);
   margin-bottom: 185px;
+
+  color: var(--primary);
 }
 
 .header-image {
-  height: 525px;
-
   position: absolute;
   top: 55px;
   right: -270px;
+
+  height: 525px;
 }
 
-.header-title__dark {
+.header-title-dark {
   color: var(--dark);
 }
 
 .header-link {
-  padding: 12px 24px;
-  font-weight: bold;
-  color: var(--white);
-  background-color: var(--primary);
-  cursor: pointer;
-  
   position: relative;
   top: 40px;
+
+  padding: 12px 24px;
+
+  color: var(--white);
+  font-weight: bold;
+
+  background-color: var(--primary);
+  cursor: pointer;
 }
