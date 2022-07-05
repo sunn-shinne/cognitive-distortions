@@ -1,6 +1,6 @@
 .header {
   position: relative;
-  /* height: 914px; */
+  background-color: var(--light);
 }
 
 header::before {
@@ -38,6 +38,6 @@ header::before {
   background-color: var(--primary);
   cursor: pointer;
   
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  top: 40px;
 }
