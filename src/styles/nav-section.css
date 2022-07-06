@@ -11,4 +11,52 @@
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav-section-title {
+  width: 350px;
+  height: 325px;
+
+  color: var(--primary) !important;
+  font-size: 52px;
+}
+
+.nav-section-title a {
+  color: var(--primary) !important;
+}
+
+.title-color-white {
+  color: var(--white);
+}
+
+.card {
+  position: relative;
+  box-sizing: border-box;
+  background-color: var(--white);
+  width: 350px;
+  height: 323px;
+  padding: 24px;
+  cursor: pointer;
+}
+
+.card-num {
+  margin: 0;
+  margin-bottom: 40px;
+  color: var(--primary-dark);
+  font: 64px/1 Neucha, sans-serif;
+}
+
+.card-title {
+  margin-bottom: 16px;
+  color: var(--primary);
+}
+
+.card:hover {
+  bottom: 5px;
+  right: 2px;
+  box-shadow: 5px 10px 20px var(--dark);
 }
