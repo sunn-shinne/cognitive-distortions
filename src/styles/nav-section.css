@@ -22,12 +22,8 @@
   height: 325px;
   margin-bottom: 20px;
 
-  color: var(--primary) !important;
+  color: var(--primary);
   font-size: 52px;
-}
-
-.nav-section-title a {
-  color: var(--primary) !important;
 }
 
 .title-color-white {
@@ -43,6 +39,9 @@
   height: 323px;
 
   padding: 24px;
+
+  color: var(--dark);
+  text-decoration: none;
 
   background-color: var(--white);
 
@@ -69,3 +68,4 @@
 
   box-shadow: 5px 10px 20px var(--dark);
 }
+
