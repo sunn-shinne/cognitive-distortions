@@ -53,6 +53,7 @@ header::before {
 
   color: var(--white);
   font-weight: bold;
+  text-decoration: none;
 
   background-color: var(--primary);
   cursor: pointer;
