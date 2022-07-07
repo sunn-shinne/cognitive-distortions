@@ -20,6 +20,7 @@
 .nav-section-title {
   width: 350px;
   height: 325px;
+  margin-bottom: 20px;
 
   color: var(--primary) !important;
   font-size: 52px;

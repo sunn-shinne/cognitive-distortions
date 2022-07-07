@@ -17,8 +17,8 @@
   margin-bottom: 27px;
 }
 
-.video-section-title-color-primary {
-  color: var(--primary);
+.video-section-title-color-dark {
+  color: var(--dark);
 }
 
 .video-section-video {
