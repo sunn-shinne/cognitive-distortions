@@ -42,6 +42,7 @@
 
 .cognitive-distortion-subtitle {
   margin: 0;
+
   color: var(--translucent-dark);
   font: 400 24px/29px Neucha, sans-serif;
 }
@@ -51,8 +52,9 @@
 }
 
 .cognitive-distortion-description {
-  font: 400 34px/40.8px Neucha, sans-serif;
   margin-top: 0;
+
+  font: 400 34px/40.8px Neucha, sans-serif;
 }
 
 .cognitive-distortion-manifestation {
@@ -62,12 +64,16 @@
 
 .cognitive-distortion-manifestation-title {
   box-sizing: border-box;
-  column-span: all;
+
   margin-top: 100px;
   margin-bottom: 20px;
   padding: 5px 10px;
+  
   color: var(--white);
   font: 700 14px/16.8px "Open Sans", sans-serif;
+  
+  column-span: all;
+
   background-color: var(--brown);
 }
 
@@ -84,8 +90,9 @@
 }
 
 .brown-theme {
-  background-color: var(--brown);
   color: var(--white);
+
+  background-color: var(--brown);
 }
 
 .brown-theme a {
@@ -98,5 +105,6 @@
 
 .brown-theme .cognitive-distortion-manifestation-title {
   color: var(--brown);
+
   background-color: var(--white);
 }

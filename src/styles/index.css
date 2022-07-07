@@ -53,9 +53,10 @@ h1 {
 }
 
 h2 {
-  font-size: 60px;
-  color: var(--primary);
   margin-bottom: 0;
+
+  color: var(--primary);
+  font-size: 60px;
 }
 
 h3 {
@@ -63,6 +64,6 @@ h3 {
 }
 
 a {
-  text-decoration: none;
   color: var(--dark);
+  text-decoration: none;
 }
